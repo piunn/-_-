@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Ghost
+  m_Name: bloc_chat4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: de0f4de3209ba2c42874afb3c5329c15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 228295badb452264e89178771c4aefc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
