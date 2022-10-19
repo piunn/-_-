@@ -422,7 +422,35 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -430,7 +458,7 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 1e-45
+      e00: 385.8
       e01: 0
       e02: -2.1006438e-19
       e03: -2.1006438e-19
@@ -440,8 +468,8 @@ Tilemap:
       e13: 5.82e-43
       e20: -3.191838e+27
       e21: 1e-45
-      e22: 5.195008e-29
-      e23: 3.772771e+19
+      e22: 5.8795993e-29
+      e23: 3.7052662e+19
       e30: 4.5904e-41
       e31: 0
       e32: 5.83e-43
@@ -452,8 +480,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -3, y: 0, z: 0}
-  m_Size: {x: 7, y: 6, z: 1}
+  m_Origin: {x: -5, y: -6, z: 0}
+  m_Size: {x: 11, y: 12, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -735,7 +763,7 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 1e-45
+      e00: 385.8
       e01: 0
       e02: -2.1006438e-19
       e03: -2.1006438e-19
@@ -745,8 +773,8 @@ Tilemap:
       e13: 5.82e-43
       e20: -3.191838e+27
       e21: 1e-45
-      e22: 6.1652725e-29
-      e23: 3.7768875e+19
+      e22: 5.193448e-29
+      e23: 3.708116e+19
       e30: 4.5904e-41
       e31: 0
       e32: 5.83e-43
