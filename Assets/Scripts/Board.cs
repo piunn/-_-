@@ -6,9 +6,13 @@ public class Board : MonoBehaviour
     public Tilemap tilemap { get; private set; }
     public Piece activePiece { get; private set; }
 
+    public int scoreNumber = -1;
+
     public TetrominoData[] tetrominoes;
     public Vector2Int boardSize = new Vector2Int(10, 20);
     public Vector3Int spawnPosition = new Vector3Int(-1, 8, 0);
+
+
 
     public RectInt Bounds
     {
@@ -45,6 +49,8 @@ public class Board : MonoBehaviour
         if (IsValidPosition(activePiece, spawnPosition))
         {
             Set(activePiece);
+            // Debug.Log("set piece ?");
+            scoreNumber += 1;
         }
         else
         {
@@ -115,6 +121,8 @@ public class Board : MonoBehaviour
             if (IsLineFull(row))
             {
                 LineClear(row);
+                // Debug.Log("line clear ?");
+                scoreNumber += 10;
             }
             else
             {
@@ -150,6 +158,7 @@ public class Board : MonoBehaviour
         {
             Vector3Int position = new Vector3Int(col, row, 0);
             tilemap.SetTile(position, null);
+
         }
 
         // Shift every row above down one

@@ -47,7 +47,7 @@ public class Piece : MonoBehaviour
         lockTime += Time.deltaTime;
 
         // Handle rotation
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             Rotate(-1);
         }
@@ -57,7 +57,7 @@ public class Piece : MonoBehaviour
         }
 
         // Handle hard drop
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             HardDrop();
         }
@@ -81,7 +81,7 @@ public class Piece : MonoBehaviour
     private void HandleMoveInputs()
     {
         // Soft drop movement
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.Z))
         {
             if (Move(Vector2Int.down))
             {
@@ -91,7 +91,7 @@ public class Piece : MonoBehaviour
         }
 
         // Left/right movement
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.Q))
         {
             Move(Vector2Int.left);
         }
