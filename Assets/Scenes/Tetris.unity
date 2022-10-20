@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 577194574}
   - component: {fileID: 577194573}
   - component: {fileID: 577194572}
+  - component: {fileID: 577194575}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -532,19 +533,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tetrominoes:
-  - tile: {fileID: 11400000, guid: 5d197b4bda0091c4d8c91956f3638232, type: 2}
+  - tile: {fileID: 11400000, guid: 92eccf7db5dff054b8719d3f5d987e4a, type: 2}
     tetromino: 0
-  - tile: {fileID: 11400000, guid: 460ab1e5640be8a43a57b76773fe9cec, type: 2}
+  - tile: {fileID: 11400000, guid: db5a602eb16b4fe42a525a89816a51ff, type: 2}
     tetromino: 1
-  - tile: {fileID: 11400000, guid: 9c566ad5c8ca2cd4eb2ec27f3366c8b2, type: 2}
+  - tile: {fileID: 11400000, guid: 88ad95b4c36459a458fe571cff8f7d3b, type: 2}
     tetromino: 2
-  - tile: {fileID: 11400000, guid: 9cbea0016500f6b42b84b53216e394db, type: 2}
+  - tile: {fileID: 11400000, guid: 8207062a332f6f948af03888e3d10d1b, type: 2}
     tetromino: 3
-  - tile: {fileID: 11400000, guid: 363c48f1d5bc99f449b4a274a0da5a0b, type: 2}
+  - tile: {fileID: 11400000, guid: 60d383fbce620a644bceda410bf2fa09, type: 2}
     tetromino: 4
-  - tile: {fileID: 11400000, guid: eb0730c996f5bc246a2741f235c4c239, type: 2}
+  - tile: {fileID: 11400000, guid: 363526e2c561927499386422ef6dc5f9, type: 2}
     tetromino: 5
-  - tile: {fileID: 11400000, guid: 3e66b771b68ea854ba41e770022de6a3, type: 2}
+  - tile: {fileID: 11400000, guid: 77d536f6d49af004c8ec56da061279bc, type: 2}
     tetromino: 6
   boardSize: {x: 10, y: 20}
   spawnPosition: {x: -1, y: 8, z: 0}
@@ -576,6 +577,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &577194575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577194571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afd060ef4e8e4949b51dafef3a6c2de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepDelay: 0.5
+  moveDelay: 0.1
+  lockDelay: 0.5
 --- !u!1 &1300635012
 GameObject:
   m_ObjectHideFlags: 0
