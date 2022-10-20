@@ -55,6 +55,7 @@ public class Board : MonoBehaviour
         else
         {
             GameOver();
+            scoreNumber = 0;
         }
     }
 
