@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: bloc_chat1_2
+  m_Name: bloc_rose4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: f622eb81526d45641a81ce79b3506327, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b0c1064cc8201341a9ec60fe4211de9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
