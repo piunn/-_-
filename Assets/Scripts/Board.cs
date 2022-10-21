@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class Board : MonoBehaviour
 {
     public Tilemap tilemap { get; private set; }
     public Piece activePiece { get; private set; }
-    public GameObject monPanel;
-    public int scoreNumber = -1;
+    public int scoreNumber = 0;
 
     public TetrominoData[] tetrominoes;
     public Vector2Int boardSize = new Vector2Int(10, 20);
@@ -37,6 +39,7 @@ public class Board : MonoBehaviour
     private void Start()
     {
         SpawnPiece();
+        scoreNumber -=1;
     }
 
     public void SpawnPiece()
@@ -55,7 +58,10 @@ public class Board : MonoBehaviour
         else
         {
             GameOver();
+            StateNameController.score=scoreNumber;
+            SceneManager.LoadScene("GameOverMenu"); 
             scoreNumber = 0;
+
         }
     }
 
@@ -63,12 +69,10 @@ public class Board : MonoBehaviour
     {
         tilemap.ClearAllTiles();
         Time.timeScale = 0f;
-        monPanel.SetActive(true);
     }
 
     public void Retry() {
         Time.timeScale = 1f;
-        monPanel.SetActive(false);
     }
 
     public void Leave() {

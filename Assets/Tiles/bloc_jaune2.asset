@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: bloc_bat1 1
+  m_Name: bloc_jaune2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 2d79c9508f2023942bc45fe4711dc180, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc315259f8d0faf459ae5590db2bfdab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
