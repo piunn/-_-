@@ -5,7 +5,7 @@ public class Board : MonoBehaviour
 {
     public Tilemap tilemap { get; private set; }
     public Piece activePiece { get; private set; }
-
+    public GameObject monPanel;
     public int scoreNumber = -1;
 
     public TetrominoData[] tetrominoes;
@@ -62,8 +62,17 @@ public class Board : MonoBehaviour
     public void GameOver()
     {
         tilemap.ClearAllTiles();
+        Time.timeScale = 0f;
+        monPanel.SetActive(true);
+    }
 
-        // Do anything else you want on game over here..
+    public void Retry() {
+        Time.timeScale = 1f;
+        monPanel.SetActive(false);
+    }
+
+    public void Leave() {
+        Application.Quit();
     }
 
     public void Set(Piece piece)
