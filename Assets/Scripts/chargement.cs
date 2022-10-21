@@ -14,5 +14,6 @@ public class chargement : MonoBehaviour {
 
     public void Leave() {
         Application.Quit();
+        Debug.Log("QUIT");
     }
 }
