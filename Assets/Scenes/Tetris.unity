@@ -558,7 +558,7 @@ MonoBehaviour:
     tetromino: 0
   - tile: {fileID: 11400000, guid: d2723f3a0f6d36742910e11be627a984, type: 2}
     tetromino: 0
-  - tile: {fileID: 11400000, guid: d720d4a47ddbd964ea23f6de671ef0a4, type: 2}
+  - tile: {fileID: 11400000, guid: bb86933209ba18d40a6478450de430db, type: 2}
     tetromino: 1
   - tile: {fileID: 11400000, guid: 1b0cbf609ad5652498f28025db6b1aff, type: 2}
     tetromino: 1
