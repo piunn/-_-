@@ -9,7 +9,7 @@ public enum Tetromino
 [System.Serializable]
 public struct TetrominoData
 {
-    public Tile tile;
+    public TileBase tile;
     public Tetromino tetromino;
 
     public Vector2Int[] cells { get; private set; }
